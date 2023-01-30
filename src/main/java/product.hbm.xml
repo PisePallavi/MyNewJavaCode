@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.java.orm.product.prodouct_orm_code.ProductInfo" table="product_table">
+	<id type="integer" name="prod_Id" column="product_id"></id>
+	<property name="prod_Name" column="product_Name" type="string"></property>
+	<property name="prod_price" column="product_price" type="integer" ></property>
+	<property name="prod_vendor" column="product_Vendor" type="string"></property>
+	<property name="prod_qty" column="product_Quantity" type="integer"></property>
+	</class>
+</hibernate-mapping>
